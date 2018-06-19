@@ -151,6 +151,13 @@ body {
   }
 }
 
+.close {
+  position: absolute;
+  top: 26px;
+  right: 2rem;
+  color: #565252;
+}
+
 .pokemon-detail {
   margin-left: 300px;
   padding: 2rem 4rem;

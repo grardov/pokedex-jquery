@@ -12,14 +12,15 @@
   <title>Pokédex jQuery</title>
 </head>
 <body>
-  <div class="button-menu">
+  <div class="button-menu" onclick="openNav()">
     <i class="fas fa-bars"></i>
   </div>
   
-  <aside class="pokemon-list">
+  <aside class="pokemon-list" id="sidebar">
     <div class="pokemon-list__header">
       <img src="./assets/img/pokeball.png" alt="Pokeball" class="pokemon-list__header-img">
       <span class="pokemon-list__header-title heading heading-primary">Pokédex</span>
+      <i class="close fas fa-times" onclick="closeNav()"></i>
     </div>
 
     <div class="pokemon-list__content">
@@ -31,6 +32,15 @@
   <section class="pokemon-detail-empty" id="detail">
     Choose a pokemon
   </section>
+
+  <script> 
+  function openNav() {
+    document.getElementById("sidebar").style.left = "0";
+  }
+  function closeNav() {
+    document.getElementById("sidebar").style.left = "-300px";
+  }
+  </script>
 
   <script src="vendors/jquery/jquery-3.3.1.min.js"></script> <!-- jQuery import -->
   <script src="assets/js/pokedex.js"></script>
