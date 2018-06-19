@@ -1,0 +1,46 @@
+.pokemon-list {
+  height: 100%;
+  width: 300px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: $color-brown;
+  color: $color-white;
+  transition: 0.5s all ease-out;
+
+  &__header {
+    background-color: $color-brown-dark;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    &-img {
+      width: 2.3em;
+      margin-right: .5rem;
+    }
+
+    &-title { 
+      font-size: 1.2rem; 
+      letter-spacing: .15rem;
+    }
+  }
+
+  &__content {
+    height: 100%;
+
+    &__items {
+      height: 92.2%;
+      overflow-x: scroll;
+
+      &-item {
+        padding: 1rem 2rem;
+        font-size: .8rem;
+        cursor: pointer;
+
+        &:hover { background-color: $color-brown-dark; }
+      }
+    }
+  }
+}
