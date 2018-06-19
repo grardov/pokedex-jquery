@@ -43,4 +43,8 @@
       }
     }
   }
+
+  @include responsive(phone) {
+    left: -300px;
+  }
 }

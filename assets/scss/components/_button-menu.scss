@@ -1,0 +1,11 @@
+.button-menu {
+  position: fixed;
+  top: 1rem;
+  left: 1rem;
+  display: none;
+  font-size: 1.6rem;
+
+  @include responsive(phone) {
+    display: block;
+  }
+}

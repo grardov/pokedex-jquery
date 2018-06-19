@@ -145,6 +145,12 @@ body {
   background-color: #343030;
 }
 
+@media only screen and (max-width: 600px) {
+  .pokemon-list {
+    left: -300px;
+  }
+}
+
 .pokemon-detail {
   margin-left: 300px;
   padding: 2rem 4rem;
@@ -213,6 +219,12 @@ body {
   margin-left: 1rem;
 }
 
+@media only screen and (max-width: 600px) {
+  .pokemon-detail {
+    margin-left: 0;
+  }
+}
+
 .pokemon-detail-empty {
   margin-left: 300px;
   height: 100vh;
@@ -223,6 +235,12 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
+}
+
+@media only screen and (max-width: 600px) {
+  .pokemon-detail-empty {
+    margin-left: 0;
+  }
 }
 
 .label {
@@ -301,4 +319,18 @@ body {
 
 .label-steel {
   background-color: #B8B8D0;
+}
+
+.button-menu {
+  position: fixed;
+  top: 1rem;
+  left: 1rem;
+  display: none;
+  font-size: 1.6rem;
+}
+
+@media only screen and (max-width: 600px) {
+  .button-menu {
+    display: block;
+  }
 }
