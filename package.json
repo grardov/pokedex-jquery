@@ -15,5 +15,11 @@
   "bugs": {
     "url": "https://github.com/grardovr/pokedex-jquery/issues"
   },
-  "homepage": "https://github.com/grardovr/pokedex-jquery#readme"
+  "homepage": "https://github.com/grardovr/pokedex-jquery#readme",
+  "devDependencies": {
+    "browser-sync": "^2.24.4",
+    "gulp": "^3.9.1",
+    "gulp-autoprefixer": "^5.0.0",
+    "gulp-sass": "^4.0.1"
+  }
 }
