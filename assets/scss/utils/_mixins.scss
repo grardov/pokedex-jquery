@@ -1,3 +1,15 @@
 @mixin putColorElement($color) {
   background-color: $color;
 }
+
+//Media query manager
+
+@mixin responsive($breakpoint) {
+  @if $breakpoint == phone {
+    @media only screen and (max-width: 600px) { @content };
+  }
+
+  @if $breakpoint == tablet {
+    @media only screen and (max-width: 900px) { @content };
+  }
+}
