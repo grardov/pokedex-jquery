@@ -1,0 +1,19 @@
+{
+  "name": "pokedex-jquery",
+  "version": "1.0.0",
+  "description": "This is a Pokedex using jQuery and Pokeapi",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/grardovr/pokedex-jquery.git"
+  },
+  "author": "Gerardo Valencia",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/grardovr/pokedex-jquery/issues"
+  },
+  "homepage": "https://github.com/grardovr/pokedex-jquery#readme"
+}
