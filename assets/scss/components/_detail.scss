@@ -58,6 +58,14 @@
 
         li { margin-left: 1rem; }
       }
+
+      @include responsive(phone) {
+        margin-top: 2rem;
+      }
+    }
+
+    @include responsive(phone) {
+      flex-direction: column;
     }
   }
 
