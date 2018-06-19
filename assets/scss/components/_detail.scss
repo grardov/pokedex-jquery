@@ -1,0 +1,15 @@
+.pokemon-detail {
+  margin-left: 300px;
+}
+
+.pokemon-detail-empty {
+  margin-left: 300px;
+  height: 100vh;
+  color: $color-brown-light;
+  font-weight: $font-bold;
+  font-size: 4rem;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

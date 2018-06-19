@@ -144,3 +144,19 @@ body {
 .pokemon-list__content__items-item:hover {
   background-color: #343030;
 }
+
+.pokemon-detail {
+  margin-left: 300px;
+}
+
+.pokemon-detail-empty {
+  margin-left: 300px;
+  height: 100vh;
+  color: #797979;
+  font-weight: 600;
+  font-size: 4rem;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
