@@ -1,5 +1,65 @@
 .pokemon-detail {
   margin-left: 300px;
+  padding: 2rem 4rem;
+
+  &__card {
+    display: flex;
+    flex-direction: row;
+
+    &__thumbnails {
+      text-align: center;
+
+      &-img {
+        width: 218px;
+        padding: 1rem;
+        background-color: $color-eee;
+        border-radius: 3px;
+        overflow: hidden;
+      }
+
+      &-elements {
+        margin-top: .3rem;
+        margin-bottom: .5rem;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+
+        span { margin-right: 1rem; }
+
+        span:last-of-type{
+          margin-right: 0;
+        }
+      }
+
+      &-name {
+        font-size: 1.3rem;
+        font-weight: $font-bold;
+        text-transform: uppercase;
+      }
+
+      &-num {
+        display: block;
+        font-weight: $font-bold;
+        color: $color-brown-light;
+      }
+    }
+
+    &__info {
+      margin-left: 2rem;
+
+      &-span {
+        display: block;
+        margin-bottom: 1rem;
+      }
+
+      &-ul {
+        list-style-type: disc;
+        margin-bottom: 1rem;
+
+        li { margin-left: 1rem; }
+      }
+    }
+  }
 }
 
 .pokemon-detail-empty {
