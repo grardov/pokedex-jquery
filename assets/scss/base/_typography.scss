@@ -1,0 +1,18 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,600'); //Google fonts import
+
+//Variables for the fonts
+$font-main: 'Montserrat', sans-serif;
+$font-regular: 400;
+$font-bold: 600;
+
+body {
+  font-family: $font-main;
+  font-weight: $font-regular;
+}
+
+.heading {
+  text-transform: uppercase;
+
+  &-primary { font-weight: $font-bold; }
+  &-secondary { font-weight: $font-regular; }
+}
