@@ -50,8 +50,13 @@
 }
 
 .close {
-  position: absolute;
-  top: 26px;
-  right: 2rem;
-  color: $color-brown;
+  display: none;
+
+  @include responsive(phone) {
+    display: block;
+    position: absolute;
+    top: 26px;
+    right: 2rem;
+    color: $color-brown;
+  }
 }

@@ -152,10 +152,17 @@ body {
 }
 
 .close {
-  position: absolute;
-  top: 26px;
-  right: 2rem;
-  color: #565252;
+  display: none;
+}
+
+@media only screen and (max-width: 600px) {
+  .close {
+    display: block;
+    position: absolute;
+    top: 26px;
+    right: 2rem;
+    color: #565252;
+  }
 }
 
 .pokemon-detail {
