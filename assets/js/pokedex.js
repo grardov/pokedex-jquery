@@ -53,8 +53,8 @@ function createPokemonCard(pokemon) {
                     <strong>Name: </strong>${pokemon.name}
                   </span>
                   <span class="pokemon-detail__card__info-span">
-                    <strong>Height: </strong>${pokemon.height} cm | 
-                    <strong>Weight: </strong>${pokemon.weight} lb
+                    <strong>Height: </strong>${pokemon.height/10} m | 
+                    <strong>Weight: </strong>${pokemon.weight/10} kg
                   </span>
                   <span class="pokemon-detail__card__info-span">
                     <strong>Habilidades: </strong>
